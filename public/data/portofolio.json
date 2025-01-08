@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "CRUD Ebook",
+    "category": "My Personal Website",
+    "image": "public/images/portofolio/codecrudkampus.png",
+    "link": "https://mseptiawan.vercel.app"
+  },
+  {
+    "id": 2,
+    "title": "Project Perpustakaan",
+    "category": "My Personal Website",
+    "image": "public/images/portofolio/codecrudperpus.jpg",
+    "link": "#"
+  },
+  {
+    "id": 3,
+    "title": "Blog With React and Strapi",
+    "category": "My Personal Website",
+    "image": "public/images/portofolio/codeblogpertama.jpg",
+    "link": "#"
+  },
+  {
+    "id": 4,
+    "title": "Javascript Company Profile",
+    "category": "My Personal Website",
+    "image": "public/images/portofolio/codecompanyprofile.jpg",
+    "link": "#"
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "name": "Pembuatan Website Portofolio",
+      "description": "Bangun portofolio profesional Anda dengan kontrol penuh pada desain menggunakan React JS dan Tailwind CSS. Web yang responsif dan modern ini memastikan proyek Anda tampil optimal di berbagai perangkat.",
+      "img": "public/images/layananImage/codeportofolio.png"
+    },
+    {
+      "id": 2,
+      "name": "Pembuatan Website Landing Page",
+      "description": "Menciptakan landing page yang memikat dengan React JS dan Tailwind CSS untuk pengalaman pengguna yang cepat dan responsif. Desain yang menarik serta loading time yang cepat akan meningkatkan konversi Anda.",
+      "img": "public/images/layananImage/codelandingpage.png"
+    },
+
+    {
+      "id": 3,
+      "name": "Pembuatan Website Company Profile",
+      "description": "Website company profile dengan React JS dan Tailwind CSS, mengutamakan optimasi SEO untuk memastikan bisnis Anda mudah ditemukan dan tampil profesional di mesin pencari.",
+      "img": "public/images/layananImage/codecompany.png"
+    },
+    {
+      "id": 4,
+      "name": "Pembuatan Website Portofolio",
+      "description": "Gunakan WordPress untuk membuat portofolio yang mudah dikelola dengan berbagai plugin pendukung. Website ini memberi Anda kebebasan untuk menampilkan karya-karya terbaik Anda secara interaktif dan menarik.",
+      "img": "public/images/layananImage/wpportofolio.png"
+    },
+    {
+      "id": 5,
+      "name": "Pembuatan Website CRUD",
+      "description": "Website CRUD berbasis WordPress dengan antarmuka yang user-friendly, memungkinkan pengelolaan data secara efisien. Dibangun dengan plugin yang tepat untuk mempermudah proses pengembangan aplikasi dinamis.",
+      "img": "public/images/layananImage/wpcrud.png"
+    },
+    {
+      "id": 6,
+      "name": "Pembuatan Blog",
+      "description": "Blog Anda bisa dibuat dengan WordPress yang kaya akan fitur, memungkinkan Anda untuk berbagi konten berkualitas dengan mudah. Kelola artikel, komentar, dan media dengan antarmuka yang sederhana.",
+      "img": "public/images/layananImage/wpblog.png"
+    },
+    {
+      "id": 7,
+      "name": "Pembuatan Website Landing Page",
+      "description": "Landing page profesional dengan WordPress yang cepat dan mudah dibuat, menggunakan plugin canggih untuk meningkatkan kinerja dan mempercepat proses pengembangan. Cocok untuk kampanye atau promosi khusus.",
+      "img": "public/images/layananImage/wplandingpage.png"
+    },
+    {
+      "id": 8,
+      "name": "Pembuatan Website Company Profile",
+      "description": "Tampilkan identitas bisnis Anda dengan website company profile berbasis WordPress yang dapat dioptimalkan untuk SEO dan memberikan pengalaman pengguna yang luar biasa, berkat integrasi berbagai plugin yang memudahkan pengelolaan konten.",
+      "img": "public/images/layananImage/wpcompany.png"
+    }
+  ]
+}

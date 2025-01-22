@@ -1,59 +1,48 @@
-import react from "./react.svg";
-import gambarUtama from "./gambarUtama.png";
-import consultan from "./consultan.svg";
-import uiuxdesign from "./uiuxdesign.png";
-import websitedinamis from "./websitedinamis.png";
-import websitelandingpage from "./websitelandingpage.png";
-import question from "./question.svg";
-import check from "./check.svg";
-import misi from "./misi.png";
-import diskon from "./diskon.png";
-import copywriting from "./copywriting.png";
-import seo from "./seo.png";
-import domain from "./domain.png";
-import ssl from "./ssl.png";
-import tutorial from "./tutorial.png";
-import responsif from "./responsif.png";
+import consultan from "./consultan.ico";
+import question from "./question.webp";
+import check from "./check.webp";
+import backgroundutama from "./backgroundutama.webp";
+import misi from "./misi.webp";
+import copywriting from "./copywriting.webp";
+import seo from "./seo.webp";
+import domain from "./domain.webp";
+import ssl from "./ssl.webp";
+import buku from "./buku.webp";
+import responsif from "./responsif.webp";
+import visi from "./visi.webp";
+import clickicon from "./clickicon.webp";
+import instagram from "./instagram.webp";
+import whatsapp from "./whatsapp.webp";
+import linkdin from "./linkdin.webp";
+import emailicon from "./email.webp";
+import angle from "./angle-right-solid.webp";
+import arrow from "./arrow.webp";
+import down from "./down.webp";
+import tanya from "./icontanya.webp";
 
-import teknologiterbaru from "./teknologiterbaru.png";
-import pengalaman from "./pengalaman.png";
-import dukungan from "./dukungan.png";
-import visi from "./visi.png";
-import top from "./top.png";
-import clickicon from "./clickicon.png";
-
-import keamanan from "./keamanan.png";
-import value from "./value.png";
-import jamkerja from "./jamkerja.svg";
-import alamat from "./alamat.svg";
-import kontak from "./kontak.svg";
+import chat from "./chat.webp";
 
 export {
-  react,
+  chat,
+  arrow,
   visi,
+  linkdin,
+  emailicon,
   clickicon,
+  whatsapp,
   seo,
+  down,
+  tanya,
+  angle,
   copywriting,
   domain,
   ssl,
-  tutorial,
+  instagram,
+  buku,
   responsif,
-  top,
-  diskon,
-  value,
-  keamanan,
-  dukungan,
   check,
-  pengalaman,
   misi,
-  gambarUtama,
-  jamkerja,
-  kontak,
-  alamat,
-  teknologiterbaru,
   question,
   consultan,
-  uiuxdesign,
-  websitedinamis,
-  websitelandingpage,
+  backgroundutama,
 };

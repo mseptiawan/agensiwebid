@@ -2,39 +2,45 @@ import { useState } from "react";
 import { question } from "../../assets";
 const Questions = () => {
   const [openIndex, setOpenIndex] = useState(null);
-
+  const [openIndex2, setOpenIndex2] = useState(null);
+  const questionsAndAnswers2 = [
+    {
+      question:
+        "Apa keunggulan AgensiWeb.id dibandingkan penyedia layanan lain?",
+      answer:
+        "Kami menawarkan jasa pembuatan website paling murah sejagad raya, serta terdapat banyak fitur mewah dan bonus yang menarik",
+    },
+    {
+      question: "Apakah bisa request desain website?",
+      answer:
+        "Bisa, anda kirimkan saja referensi atau gambar website yang anda inginkan. dengan sekejap mata akan kami selesaikan",
+    },
+    {
+      question: "Apakah ada demo website agar saya bisa lihat designnya?",
+      answer:
+        "Untuk sekarang belum ada, Namun sebagai alternatif kami akan kirimkan gambaran design website melalui dokumen pdf dan video website, terdapat puluhan design yang siap anda pilih",
+    },
+    {
+      question: "Apakah bisa mengedit atau memelihara konten website sendiri?",
+      answer:
+        "Bisa, kami nanti dapat mengirimkan anda video di youtube tentang cara mengedit website anda seperti memperbarui kalimat, gambar dan lainnya",
+    },
+    {
+      question: "Bagaimana jika saya telah punya domain dan hosting sendiri?",
+      answer:
+        "Pembuatan website tetap bisa kami lakukan, nanti setelah website selesai maka akan kami kirim file website tersebut dan anda dapat mengupload nya pada penyedia hosting anda, terkait biaya dapat disesuaikans",
+    },
+  ];
   const questionsAndAnswers = [
     {
       question: "Bagaimana proses pembayaran?",
       answer:
-        "Sebelum kami membuat website anda, anda diminta untuk membayar uang muka terlebih dahulu sebesar 50%.",
+        "Sebelum kami membuat website anda, anda diminta untuk membayar uang muka terlebih dahulu sebesar 50%. setelah website selesai maka klien diminta untuk membayar pelunasan",
     },
     {
-      question: "Apa ada data yang diperlukan saat membuat website?",
-      answer: (
-        <div>
-          <p>
-            Ya, sebelum kami membuat website untuk Anda, Anda diminta untuk
-            mengirimkan data seperti gambar, dan assets lainnya sesuai dengan
-            jenis website yang Anda pesan.
-          </p>
-          <p className="mt-4 text-sm text-blue-700 p-3 bg-white rounded-xl ">
-            <a
-              href="/formulir-data-website.pdf" // Path ke formulir data website yang ingin diunduh
-              download="formulir-data-website.pdf" // Nama file saat didownload
-              className="text-center "
-            >
-              Download Formulir Data Pembuatan Website
-            </a>
-          </p>
-        </div>
-      ),
-    },
-    // Pertanyaan lainnya...
-    {
-      question: "Apa beda wordpress dan Coding secara manual?",
+      question: "Apa saja aset yang diperlukan saat membuat website?",
       answer:
-        "WordPress menawarkan solusi cepat dengan template yang siap pakai. Coding manual memberikan fleksibilitas tak terbatas untuk menciptakan website unik sesuai kebutuhan spesifik Anda.",
+        "Diperlukan gambar yang akan kita dimasukkan ke website, deskripsi, dan konten lainnya.",
     },
     {
       question: "Kegunaan website portofolio apa?",
@@ -47,29 +53,35 @@ const Questions = () => {
         "Landing page fokus pada satu tujuan spesifik, seperti promosi atau konversi. Company profile menampilkan informasi lengkap tentang perusahaan, seperti visi, misi, layanan, dan sejarah",
     },
     {
-      question: "Perpanjangan diperlukan untuk apa?",
+      question: "Tarif Perpanjangan diperlukan untuk apa?",
       answer:
-        "Perpanjangan diperlukan untuk memastikan website tetap aktif dan dapat diakses, termasuk memperpanjang domain, hosting agar operasional website berjalan lancar tanpa gangguan.",
+        "Perpanjangan diperlukan untuk memastikan website tetap aktif, dapat diakses, dan jasa atas maintenance, termasuk memperpanjang domain, hosting agar operasional website berjalan lancar tanpa gangguan.",
     },
     {
-      question:
-        "Bagaimana tahapan untuk saya membuat website di MyConsultanIT?",
+      question: "Bagaimana jika terjadi error pada website saya nanti?",
       answer:
-        "Anda tidak perlu pusing dengan kode yang rumit, silahkan hubungi MyConsultanIT dapat melalui email atau WhatsApp +62 877-8903-5813.",
+        "Klien dapat menghubungi kami dan kami akan dengan segera memperbaiki error tersebut.",
     },
   ];
 
   const toggleAnswer = (index) => {
     if (openIndex === index) {
-      setOpenIndex(null); // Menutup jawaban jika klik yang sama
+      setOpenIndex(null);
     } else {
-      setOpenIndex(index); // Membuka jawaban yang dipilih
+      setOpenIndex(index);
+    }
+  };
+  const toggleAnswer2 = (index) => {
+    if (openIndex2 === index) {
+      setOpenIndex2(null);
+    } else {
+      setOpenIndex2(index);
     }
   };
 
   return (
     <div>
-      <div className="relative isolate font-poppins overflow-hidden bg-custom scale-100 mt-10">
+      <div className="relative  isolate font-outfit overflow-hidden bg-custom scale-100 mt-10">
         <div className="py-10 px-8 max-w-5xl mx-auto flex flex-col md:flex-row gap-12 ">
           <div className="flex flex-col text-left basis-1/2">
             <p className="inline-block font-semibold mb-4 xs:text-center md:text-left">
@@ -80,7 +92,7 @@ const Questions = () => {
             </p>
             <img
               src={question}
-              alt="question"
+              alt="Ikon pertanyaan untuk mengakses FAQ atau tanya jawab"
               className="w-[400px] mt-6 xs:mx-auto md:ml-0"
             />
           </div>
@@ -88,9 +100,9 @@ const Questions = () => {
             {questionsAndAnswers.map((item, index) => (
               <li key={index} className="group">
                 <button
-                  onClick={() => toggleAnswer(index)} // Menambahkan fungsi onClick
+                  onClick={() => toggleAnswer(index)}
                   className="relative flex gap-2 items-center w-full py-5 text-base font-semibold text-left border-t md:text-lg border-base-content/10"
-                  aria-expanded={openIndex === index ? "true" : "false"} // Menentukan status ekspansi
+                  aria-expanded={openIndex === index ? "true" : "false"}
                 >
                   <span className="flex-1 text-base-content">
                     {item.question}
@@ -134,6 +146,53 @@ const Questions = () => {
             ))}
           </ul>
         </div>
+        <ul className="xs:w-5/6 md:w-[1000px] mx-auto -mt-10">
+          {questionsAndAnswers2.map((item, index) => (
+            <li key={index} className="group">
+              <button
+                onClick={() => toggleAnswer2(index)}
+                className="relative flex gap-2 items-center w-full py-5 text-base font-semibold text-left border-t md:text-lg border-base-content/10"
+                aria-expanded={openIndex2 === index ? "true" : "false"}
+              >
+                <span className="flex-1 text-base-content">
+                  {item.question}
+                </span>
+                <svg
+                  className="flex-shrink-0 w-4 h-4 ml-auto fill-current"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    y="7"
+                    width="16"
+                    height="2"
+                    rx="1"
+                    className={`transform origin-center transition duration-200 ease-out ${
+                      openIndex2 === index ? "rotate-90" : ""
+                    }`}
+                  ></rect>
+                  <rect
+                    y="7"
+                    width="16"
+                    height="2"
+                    rx="1"
+                    className="group-hover:opacity-0 transform origin-center transition-all duration-200 ease-out"
+                  ></rect>
+                </svg>
+              </button>
+              <div
+                className={`transition-all duration-300 ease-in-out overflow-hidden ${
+                  openIndex2 === index ? "max-h-60" : "max-h-0"
+                }`}
+                style={{ transition: "max-height 0.3s ease-in-out 0s" }}
+              >
+                <div className="pb-5 leading-relaxed">
+                  <div className="space-y-2 leading-relaxed">{item.answer}</div>
+                </div>
+              </div>
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );

@@ -1,8 +1,7 @@
-import Navbar from "./NavigasiandFooter/Navbar";
-import Kontak from "./Kontak/Kontak";
+import NavigationBar from "./NavFootComponents/NavigationBar";
+import Contact from "./ContactComponents/Contact";
 import Home from "./Home";
-import Footer from "./NavigasiandFooter/Footer";
-import Portofolio from "./Portofolio";
-import TawkTo from "./TawkTo";
+import Footer from "./NavFootComponents/Footer";
+import WebsitePortofolio from "./WebsitePortofolio";
 
-export { Home, Navbar, Kontak, TawkTo, Portofolio, Footer };
+export { Home, NavigationBar, Contact, WebsitePortofolio, Footer };

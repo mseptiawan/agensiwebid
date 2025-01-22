@@ -1,5 +1,5 @@
-import HalamanHome from "./HalamanHome";
-import HalamanPortofolio from "./HalamanPortofolio";
-import HalamanKontak from "./HalamanKontak";
+import Homes from "./Homes";
+import Portfolio from "./Portfolio";
+import ContactUs from "./ContactUs";
 import NotFound from "./NotFound";
-export { HalamanHome, HalamanKontak, NotFound, HalamanPortofolio };
+export { Homes, ContactUs, NotFound, Portfolio };

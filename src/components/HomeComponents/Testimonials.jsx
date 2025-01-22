@@ -1,15 +1,15 @@
 const Testimonials = () => {
   return (
-    <div>
+    <div className="">
       <section
         id="testimonials"
         aria-label="What our customers are saying"
-        className=" py-20 sm:py-32 -mt-20 font-poppins xs:bg-background-komentar bg-cover bg-center md:bg-none z-10"
+        className=" py-20 sm:py-32 -mt-20 font-outfit lg:bg-none  xs:bg-background-komentar bg-cover bg-center z-10"
       >
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="font-display  font-bold  mt-2  text-3xl tracking-tight  sm:text-4xl">
-              Apa Komentar orang tentang MyConsultanIT?
+              Apa Komentar orang tentang AgensiWeb.id?
             </h2>
           </div>
           <ul
@@ -32,34 +32,28 @@ const Testimonials = () => {
                       <blockquote className="relative ">
                         <p className="sm:text-lg xs:text-xs tracking-tight text-slate-900">
                           {index === 0 &&
-                            "Saya Johan, temannya pemilik dari MyConsultanIT semasa SMK, Katanya agar orang lain bisa tau siapa saya maka saya perlu buat website portofolio, awalnya saya riset dulu tentang jenis website tersebut, akhirnya saya pun tertarik untuk membuat website portofolio untuk diri saya pribadi. dengan website itu saya bisa menyombongkan keahlian saya yang aku sisipkan di website itu pada teman teman lain  "}
+                            "Saya Johan, temannya pemilik dari AgensiWeb.id semasa SMK, pengalaman saya buat website portofolio disini sangat menakjubkan ga sampe seminggu langsung jadi websitenya, sukses selalu untuk AgensiWeb.id"}
                           {index === 1 &&
-                            "Tugas kuliah memang membosankan, selain deadline pengerjaan yang cepat juga banyak tugas lain yang harus diselesaikan. membuat saya selaku mahasiswa Informatika pusing, lantas terbesit dalam benak bahwa saya harus cari jasa joki pembuatan website yang mana saya perlu blog. dan saya mendengar dari teman 'Buka aja situs MyConsultanIT  disana menerima jasa pembuatan website, seketika itu saya excited dan langsung konsultasi segera '"}
+                            "penyedia jasa pembuatan website terbaik, selain membantu membuat website, AgensiWeb.id memberikan bonus buku juga yang sangat berguna bagi klien seperti saya ini yang awam tentang usaha UMKM berkat buku tersebut pikiran saya agak sedikit terbuka"}
                           {index === 2 &&
-                            "Saya buka usaha loundry. dan suatu ketika usaha saya sepi, disaat itu saya termenung sambil scroll facebook, setelah 5 menit scroll saya menemukan sebuah postingan dari Halaman facebook MyConsultanIT dengan kalimat 'Usaha anda sepi? Makanya pindah ke digital, sedikit tersinggung dan berpikir. memang copywriting dan persuasif yang mematikan, akhirnya setelah saya baca iklan tersebut. saya tertarik untuk membuat website company profile untuk usaha saya dan syukur dengan bantuan MyConsultanIT, OMSEtttt saya naik 2x lipat '"}
+                            "Saya buka usaha loundry. dan suatu ketika usaha saya sepi, disaat itu saya termenung sambil scroll facebook, setelah 5 menit scroll saya menemukan sebuah postingan dari Halaman facebook AgensiWeb.id dengan kalimat 'Usaha anda sepi? Makanya pindah ke digital, sedikit tersinggung dan berpikir. akhirnya setelah saya baca postingan tersebut. saya tertarik untuk membuat website company profile untuk usaha saya dan syukur dengan bantuan AgensiWeb.id, OMSEtttt saya naik 2x lipattt"}
                         </p>
                       </blockquote>
                       <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
                         <div>
                           <div className="font-display text-base text-slate-900">
-                            {index === 0 && "Johan putra agus"}
-                            {index === 1 && "Yudiansa"}
-                            {index === 2 && "Rati putri zainudin"}
+                            {index === 0 && "Ilham"}
+                            {index === 1 && "Dedi Suharta"}
+                            {index === 2 && "Rati"}
                           </div>
                         </div>
                         <div className="overflow-hidden rounded-full bg-slate-50">
                           <div className="font-display text-base text-slate-900">
-                            {index === 0 && "2022"}
+                            {index === 0 && "2025"}
                             {index === 1 && "2024"}
                             {index === 2 && "2024"}
                           </div>
-                          {/* <img
-                            alt=""
-                            className="h-14 w-14 object-cover"
-                            src={`https://randomuser.me/api/portraits/${
-                              index === 0 ? "women" : "men"
-                            }/${index * 5 + 15}.jpg`}
-                          /> */}
+                       
                         </div>
                       </figcaption>
                     </figure>

@@ -9,9 +9,11 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "background-utama": "url('/images/backgroundutama.svg')",
-        "background-handphone": "url('/images/bghandphone.svg')",
-        "background-komentar": "url('/images/bgkomentar.svg')",
+        "background-komentar": "url('/images/bg-komentar.svg')",
+        "bg-foot": "url('/images/bg-foot.svg')",
+        "bg-foot2": "url('/images/bg-foot2.svg')",
+        "bg-foot3": "url('/images/bg-foot3.svg')",
+        "bg-komen": "url('/images/bg-komensvg.svg')",
       },
       colors: {
         primary: "#00040f",
@@ -22,6 +24,7 @@ export default {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
         inter: ["Inter", "sans-serif"],
+        outfit: ["Outfit", "sans-serif"],
       },
     },
     screens: {

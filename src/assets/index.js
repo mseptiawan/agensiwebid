@@ -19,11 +19,15 @@ import angle from "./angle-right-solid.webp";
 import arrow from "./arrow.webp";
 import down from "./down.webp";
 import tanya from "./icontanya.webp";
+import capporto from "./capporto.png";
+import capcompany from "./capcompany.png";
 
-import chat from "./chat.webp";
+import chat from "./chat.png";
 
 export {
   chat,
+  capcompany,
+  capporto,
   arrow,
   visi,
   linkdin,

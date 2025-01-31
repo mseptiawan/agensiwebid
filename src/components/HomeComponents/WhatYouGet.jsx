@@ -4,7 +4,7 @@ const WhatYouGet = () => {
     <div className="">
       <section
         id="features"
-        className=" w-11/12 xxl:w-[1850px] mx-auto px-4 space-y-6  py-8 md:py-12 lg:py-20 scale-110 xs:mt-32 sm:mt-20 font-outfit"
+        className=" w-11/12 xxl:w-[1850px] mx-auto px-4 space-y-6  py-8 md:py-12 lg:py-20 scale-110 xs:mt-32  ss:mt-20 font-outfit"
       >
         <div className="mx-auto flex  flex-col items-center space-y-4 text-center -mt-32 ss:mt-4 md:w-1/2 xs:w-3/2  mb-14">
           <h2 className="text-3xl font-bold  mt-2 ">Apa yang anda dapatkan?</h2>
@@ -42,7 +42,7 @@ const WhatYouGet = () => {
             </div>
           </div>
 
-          <div className="relative overflow-hidden rounded-lg border bg-white select-none p-2">
+          <div className="relative overflow-hidden rounded-lg border bg-[#EAFAEA] select-none p-2">
             <div className="flex flex-col justify-between rounded-md  ss:p-6 xs:p-2 ">
               <img
                 src={seo}
@@ -54,8 +54,7 @@ const WhatYouGet = () => {
                   SEO Premium
                 </h3>
                 <p className="text-sm xs:text-[10px] ss:text-base text-black">
-                  Dengan SEO Premium maka akan membuat website Anda mudah
-                  ditemukan
+                  Dengan SEO Basic  maka akan membuat website anda terindek oleh Google
                 </p>
               </div>
             </div>
@@ -65,7 +64,7 @@ const WhatYouGet = () => {
             <div className="flex flex-col justify-between rounded-md ss:p-6 xs:p-2">
               <img
                 src={responsif}
-                alt="Ikon responsif untuk desain yang menyesuaikan layar" 
+                alt="Ikon responsif untuk desain yang menyesuaikan layar"
                 className="w-20 -mt-4 mb-4"
               />
               <div className="space-y-2">
@@ -80,7 +79,7 @@ const WhatYouGet = () => {
             </div>
           </div>
 
-          <div className="relative overflow-hidden rounded-lg border bg-white select-none p-2">
+          <div className="relative overflow-hidden rounded-lg border bg-[#EAFAEA]  select-none p-2">
             <div className="flex flex-col justify-between rounded-md ss:p-6 xs:p-2 ">
               <img
                 src={ssl}
@@ -119,7 +118,7 @@ const WhatYouGet = () => {
             </div>
           </div>
 
-          <div className="relative overflow-hidden rounded-lg border bg-white select-none p-2">
+          <div className="relative overflow-hidden rounded-lg border bg-[#EAFAEA]  select-none p-2">
             <div className="flex flex-col justify-between rounded-md ss:p-6 xs:p-2">
               <img
                 src={buku}
@@ -149,11 +148,11 @@ const WhatYouGet = () => {
                     <p>Kecerdasan Financial</p>
                   </div>
                 </div>
-              
               </div>
             </div>
           </div>
         </div>
+       
       </section>
     </div>
   );

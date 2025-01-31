@@ -9,7 +9,7 @@ const Testimonials = () => {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="font-display  font-bold  mt-2  text-3xl tracking-tight  sm:text-4xl">
-              Apa Komentar orang tentang AgensiWeb.id?
+              Apa Komentar orang tentang AgensiWeb?
             </h2>
           </div>
           <ul
@@ -32,11 +32,11 @@ const Testimonials = () => {
                       <blockquote className="relative ">
                         <p className="sm:text-lg xs:text-xs tracking-tight text-slate-900">
                           {index === 0 &&
-                            "Saya Johan, temannya pemilik dari AgensiWeb.id semasa SMK, pengalaman saya buat website portofolio disini sangat menakjubkan ga sampe seminggu langsung jadi websitenya, sukses selalu untuk AgensiWeb.id"}
+                            "Saya Johan, temannya pemilik dari AgensiWeb semasa SMK, pengalaman saya buat website portofolio disini sangat menakjubkan ga sampe seminggu langsung jadi websitenya, sukses selalu untuk AgensiWeb"}
                           {index === 1 &&
-                            "penyedia jasa pembuatan website terbaik, selain membantu membuat website, AgensiWeb.id memberikan bonus buku juga yang sangat berguna bagi klien seperti saya ini yang awam tentang usaha UMKM berkat buku tersebut pikiran saya agak sedikit terbuka"}
+                            "penyedia jasa pembuatan website terbaik, selain membantu membuat website, AgensiWeb memberikan bonus buku juga yang sangat berguna bagi klien seperti saya ini yang awam tentang usaha UMKM berkat buku tersebut pikiran saya agak sedikit terbuka"}
                           {index === 2 &&
-                            "Saya buka usaha loundry. dan suatu ketika usaha saya sepi, disaat itu saya termenung sambil scroll facebook, setelah 5 menit scroll saya menemukan sebuah postingan dari Halaman facebook AgensiWeb.id dengan kalimat 'Usaha anda sepi? Makanya pindah ke digital, sedikit tersinggung dan berpikir. akhirnya setelah saya baca postingan tersebut. saya tertarik untuk membuat website company profile untuk usaha saya dan syukur dengan bantuan AgensiWeb.id, OMSEtttt saya naik 2x lipattt"}
+                            "Saya buka usaha loundry. dan suatu ketika usaha saya sepi, disaat itu saya termenung sambil scroll facebook, setelah 5 menit scroll saya menemukan sebuah postingan dari Halaman facebook AgensiWeb dengan kalimat 'Usaha anda sepi? Makanya pindah ke digital, sedikit tersinggung dan berpikir. akhirnya setelah saya baca postingan tersebut. saya tertarik untuk membuat website company profile untuk usaha saya dan syukur dengan bantuan AgensiWeb, OMSEtttt saya naik 2x lipattt"}
                         </p>
                       </blockquote>
                       <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">

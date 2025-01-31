@@ -9,6 +9,7 @@ import CallToAction from "./HomeComponents/CallToAction";
 import WhatYouGet from "./HomeComponents/WhatYouGet";
 import Questions from "./HomeComponents/Questions";
 import WebsiteType from "./HomeComponents/WebsiteType";
+import Template from "./HomeComponents/Template";
 
 const Home = () => {
   const [setServices] = useState([]);
@@ -26,8 +27,7 @@ const Home = () => {
           <div className="md:flex md:justify-center md:space-x-36 -mt-12">
             <div className=" lg:mt-52 lg:ml-20 lg:scale-[1.5] xs:mt-0 sm:mt-36 ss:ml-0 md:ml-20 sm:scale-[1.2] ">
               <h2 className="xs:text-center md:text-left font-outfit text-lg xs:mt-20 md:mt-0 ">
-                <span className="text-yellow-300 font-bold">Diskon</span> hingga
-                47,32%
+                <span className="text-yellow-300 font-bold">Penawaran menarik</span>
               </h2>
               <div className="xs:text-center md:text-left ">
                 <h1 className="font-outfit text-2xl font-bold mb-2">
@@ -86,7 +86,7 @@ const Home = () => {
                     alt="Ikon check untuk menandai tindakan yang sudah selesai"
                     className="w-10 mr-2"
                   />
-                  <span>Harga paling murah sejagad raya</span>
+                  <span>Dapat Ebook tentang bisnis</span>
                 </li>
                 <li className="flex items-center">
                   <img
@@ -103,7 +103,7 @@ const Home = () => {
                   <button
                     onClick={() =>
                       (window.location.href =
-                        "https://wa.me/6287789035813?text=Halo%20kak,%20saya%20tertarik%20untuk%20membuat%20website%20di%20agensiwebid%20😀")
+                        "https://wa.me/6287789035813?text=Halo%20kak,%20saya%20tertarik%20untuk%20membuat%20website%20di%20agensiweb%20😀")
                     }
                     className="bg-white shadow-lg text-black font-bold md:px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-300 xs:px-2 hover:scale-95 duration-75"
                   >
@@ -130,6 +130,7 @@ const Home = () => {
       <Goal />
       <WebsiteType />
       <WhatYouGet />
+      <Template />
       <Questions />
       <Testimonials />
       <CallToAction />

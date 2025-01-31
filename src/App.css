@@ -9,7 +9,6 @@
   border-bottom-right-radius: 20px;
 }
 
-
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -44,4 +43,108 @@
 
 .read-the-docs {
   color: #888;
+}
+/* Styling umum untuk container pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Styling untuk setiap item pagination */
+.pagination li {
+  display: inline-block;
+}
+
+/* Styling untuk tombol pagination */
+.pagination a,
+.pagination button {
+  background-color: #f1f1f1;
+  color: #333;
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.pagination a:hover,
+.pagination button:hover {
+  background-color: #4b164c;
+  color: white;
+  border-color: #4b164c;
+}
+
+/* Active page style */
+.pagination .active a,
+.pagination .active button {
+  background-color: #4b164c;
+  color: white;
+  border-color: #4b164c;
+  font-weight: bold;
+}
+
+/* Disabled page styling */
+.pagination .disabled a,
+.pagination .disabled button {
+  background-color: #e0e0e0;
+  color: #b0b0b0;
+  cursor: not-allowed;
+}
+
+/* Menyembunyikan angka pagination di perangkat mobile */
+@media (max-width: 768px) {
+  /* Menyembunyikan nomor halaman (angka) */
+  .pagination li:not(.previous):not(.next):not(.break) {
+    display: none;
+  }
+
+  /* Menampilkan hanya tombol Previous dan Next */
+  .pagination .previous,
+  .pagination .next {
+    display: inline-block;
+  }
+
+  /* Menyembunyikan titik-titik (ellipsis) */
+  .pagination .break {
+    display: none;
+  }
+
+  /* Lebih besar padding untuk tombol previous/next */
+  .pagination .previous,
+  .pagination .next {
+    padding: 8px 12px; /* Memperbesar sedikit padding pada tombol */
+  }
+}
+
+/* Responsif: Untuk tablet (768px - 1024px) */
+@media (max-width: 1024px) {
+  .pagination {
+    gap: 6px; /* Menambah sedikit spasi di tablet */
+    font-size: 13px; /* Ukuran font sedikit lebih besar dari mobile */
+  }
+
+  .pagination a,
+  .pagination button {
+    padding: 7px 14px; /* Sedikit memperbesar padding tombol di tablet */
+  }
+}
+
+/* Responsif: Untuk desktop dan layar lebih besar */
+@media (min-width: 1025px) {
+  .pagination {
+    gap: 8px; /* Gap standar pada desktop */
+    font-size: 14px; /* Ukuran font default */
+  }
+
+  .pagination a,
+  .pagination button {
+    padding: 8px 16px; /* Padding default untuk tombol di desktop */
+  }
 }

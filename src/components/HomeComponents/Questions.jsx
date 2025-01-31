@@ -6,9 +6,9 @@ const Questions = () => {
   const questionsAndAnswers2 = [
     {
       question:
-        "Apa keunggulan AgensiWeb.id dibandingkan penyedia layanan lain?",
+        "Apa keunggulan AgensiWeb dibandingkan penyedia layanan lain?",
       answer:
-        "Kami menawarkan jasa pembuatan website paling murah sejagad raya, serta terdapat banyak fitur mewah dan bonus yang menarik",
+        "Kami menawarkan fitur yang solid serta kami membagikan ebook gratis",
     },
     {
       question: "Apakah bisa request desain website?",
@@ -16,19 +16,19 @@ const Questions = () => {
         "Bisa, anda kirimkan saja referensi atau gambar website yang anda inginkan. dengan sekejap mata akan kami selesaikan",
     },
     {
-      question: "Apakah ada demo website agar saya bisa lihat designnya?",
-      answer:
-        "Untuk sekarang belum ada, Namun sebagai alternatif kami akan kirimkan gambaran design website melalui dokumen pdf dan video website, terdapat puluhan design yang siap anda pilih",
-    },
-    {
       question: "Apakah bisa mengedit atau memelihara konten website sendiri?",
       answer:
-        "Bisa, kami nanti dapat mengirimkan anda video di youtube tentang cara mengedit website anda seperti memperbarui kalimat, gambar dan lainnya",
+        "Bisa, kami dapat membagikan  video di youtube tentang cara mengedit website  seperti memperbarui kalimat, gambar dan lainnya, namun jika  tidak mau pusing kami bisa membantu memperbarui website anda tetapi akan dikenakan biaya lebih lanjut.",
     },
     {
       question: "Bagaimana jika saya telah punya domain dan hosting sendiri?",
       answer:
         "Pembuatan website tetap bisa kami lakukan, nanti setelah website selesai maka akan kami kirim file website tersebut dan anda dapat mengupload nya pada penyedia hosting anda, terkait biaya dapat disesuaikans",
+    },
+    {
+      question: "Apa itu dashboard wordpress?",
+      answer:
+        "Dashboard wordpress digunakan untuk memanajemen website , dengan itu anda dapat mengedit dan banyak lain hal yang dapat anda gunakan. nanti anda mendapatkan akun yang dapat digunakan untuk masuk kedalam dashboard wordpress.",
     },
   ];
   const questionsAndAnswers = [
@@ -113,7 +113,7 @@ const Questions = () => {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <rect
-                      y="7"
+                      y=" "
                       width="16"
                       height="2"
                       rx="1"

@@ -21,7 +21,7 @@ const CallToAction = () => {
             <button
               onClick={() =>
                 (window.location.href =
-                  "https://wa.me/6287789035813?text=Halo%20kak,%20saya%20tertarik%20untuk%20membuat%20website%20di%20agensiwebid%20😀")
+                  "https://wa.me/6287789035813?text=Halo%20kak,%20saya%20tertarik%20untuk%20membuat%20website%20di%20agensiweb%20😀")
               }
               className="relative hover:scale-95 duration-75  bg-white text-black font-bold shadow-xl  sm:px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-300   xs:px-2  xs:text-sm sm:text-lg"
             >

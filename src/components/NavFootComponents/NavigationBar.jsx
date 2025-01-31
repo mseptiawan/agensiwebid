@@ -14,7 +14,7 @@ const NavigationBar = () => {
         <div className="flex items-center justify-between -mt-14 ">
           <div className="flex items-center">
             <Link to="/jasa-pembuatan-website" className="text-2xl font-bold">
-              <p className=" lg:w-60 w-52 xs:w-40  mt-16">AgensiWeb.id</p>
+              <p className=" lg:w-60 w-52 xs:w-40  mt-16">AgensiWeb</p>
             </Link>
           </div>
           <div className="hidden sm:block mt-14">

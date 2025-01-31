@@ -3,28 +3,28 @@
     "id": 1,
     "title": "CRUD Ebook",
     "category": "Website Pribadi",
-    "image": "public/portofolio-web/codecrudkampus.webp",
+    "image": "images/portofolio-web/codecrudkampus.webp",
     "link": "https://mseptiawan.vercel.app"
   },
   {
     "id": 2,
     "title": "Proyek  Perpustakaan",
     "category": "Website Pribadi",
-    "image": "public/portofolio-web/codecrudperpus.webp",
+    "image": "images/portofolio-web/codecrudperpus.webp",
     "link": "#"
   },
   {
     "id": 3,
     "title": "Blog dengan React dan Strapi CMS",
     "category": "Website Pribadi",
-    "image": "public/portofolio-web/codeblogpertama.webp",
+    "image": "images/portofolio-web/codeblogpertama.webp",
     "link": "#"
   },
   {
     "id": 4,
     "title": "Company Profile",
     "category": "Website Pribadi",
-    "image": "public/portofolio-web/codecompanyprofile.webp",
+    "image": "images/portofolio-web/codecompanyprofile.webp",
     "link": "#"
   }
 ]

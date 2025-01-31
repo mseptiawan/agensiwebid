@@ -1,22 +1,33 @@
 import { instagram, linkdin, emailicon, whatsapp, angle } from "../../assets";
 import emailjs from "emailjs-com";
-
+import { NavLink, useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 const Footer = () => {
   emailjs.init("KA1948RXTL38AVhqi");
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []); //
+
+  const navigate = useNavigate();
+
+  const handleNavigation = () => {
+    window.scrollTo(0, 0);
+    navigate("/jasa-pembuatan-website");
+  };
 
   return (
-    <div className=" xs:bg-bg-foot2  lg:bg-bg-foot3  bg-cover    bg-[#040b54] ">
+    <div className=" xs:bg-bg-foot2  lg:bg-bg-foot3  bg-cover    bg-[#000000] ">
       <footer className="w-full font-outfit xs:text-medium md:text-lg ">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-12 gap-8 py-14 lg:grid-cols-8">
             <div className="mb-0 col-span-full lg:col-span-3 ">
               <a className="flex mt-2">
-                <p className=" w-52 text-2xl font-bold">| AgensiWeb.id</p>
+                <p className=" w-52 text-2xl font-bold">| AgensiWeb</p>
               </a>
               <p className="mt-6   ">
-                Layanan penyedia jasa pembuatan website landing
-                page, website informasi seperti company profile dan informasi produk anda. dengan menjadi mitra anda ayo kita
-                menuju kesuksesan bersama.
+                Layanan penyedia jasa pembuatan website landing page, website
+                informasi seperti company profile dan informasi produk anda.
+                dengan menjadi mitra anda ayo kita menuju kesuksesan bersama.
               </p>
             </div>
             <div className="w-full text-center lg:w-auto lg:text-left col-span-full sm:col-span-4 md:col-span-4 lg:col-span-2 ">
@@ -46,33 +57,31 @@ const Footer = () => {
                 <li className="mb-6">
                   <div className="flex space-x-2">
                     <img src={angle} alt="" className="w-4 h-6 filter invert" />
-                    <a href="/jasa-pembuatan-website" className=" hover:">
+
+                    <NavLink
+                      to={"/jasa-pembuatan-website"}
+                      onClick={handleNavigation}
+                    >
                       Beranda
-                    </a>
+                    </NavLink>
                   </div>
                 </li>
                 <li className="mb-6">
                   <div className="flex space-x-2">
                     <img src={angle} alt="" className="w-4 h-6 filter invert" />
-                    <a href="/#paket" className="  hover:">
-                      Pilihan website
-                    </a>
+                    <a href="/jasa-pembuatan-website#paket">Pilihan website</a>
                   </div>
                 </li>
                 <li className="mb-6">
                   <div className="flex space-x-2">
                     <img src={angle} alt="" className="w-4 h-6 filter invert" />
-                    <a href="/portofolio-web" className="  hover:">
-                      Portofolio Web
-                    </a>
+                    <NavLink to={"/portofolio-web"}>Portofolio web</NavLink>
                   </div>
                 </li>
                 <li className="sm:mb-6">
                   <div className="flex space-x-2">
                     <img src={angle} alt="" className="w-4 h-6 filter invert" />
-                    <a href="/hubungi-kami" className="  hover:">
-                      Kontak kami
-                    </a>
+                    <NavLink to={"/hubungi-kami"}>Kontak kami</NavLink>
                   </div>
                 </li>
               </ul>
@@ -101,7 +110,7 @@ const Footer = () => {
                 </a>
 
                 <a
-                  href="https://wa.me/6287789035813?text=Halo%20kak,%20saya%20tertarik%20untuk%20membuat%20website%20di%20agensiwebid%20😁"
+                  href="https://wa.me/6287789035813?text=Halo%20kak,%20saya%20tertarik%20untuk%20membuat%20website%20di%20agensiweb%20😁"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex justify-center items-center w-16 h-16 bg-white rounded-lg scale-75 hover:scale-100 duration-75"
@@ -114,7 +123,7 @@ const Footer = () => {
                 </a>
 
                 <a
-                  href="mailto:mseptiawan017@gmail.com?subject=Tertarik%20untuk%20membuat%20website&body=Halo,%20saya%20tertarik%20untuk%20membuat%20website%20di%20agensiwebid%20😁"
+                  href="mailto:mseptiawan017@gmail.com?subject=Tertarik%20untuk%20membuat%20website&body=Halo,%20saya%20tertarik%20untuk%20membuat%20website%20di%20agensiweb%20😁"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex justify-center items-center w-16 h-16 bg-white rounded-lg scale-75 hover:scale-100 duration-75"
@@ -144,7 +153,7 @@ const Footer = () => {
           <div className="py-7 border-t border-gray-200">
             <div className="flex  justify-center text-center flex-col  lg:flex-row">
               <span className="   ">
-                Copyright © 2025<a href=""> agensiwebid</a>, Powered by Agensiwebid.
+                Copyright © 2025<a href=""> agensiweb</a>, Powered by Agensiweb.
               </span>
             </div>
           </div>

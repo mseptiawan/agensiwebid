@@ -77,14 +77,14 @@ const Template = () => {
           </p>
         </div>
         <div>
-          <h2 className=" text-2xl mt-2 font-poppins">Pilih Kategori Webmu:</h2>
+          <h2 className=" text-2xl mt-2 font-poppins">Telusuri berbagai website :</h2>
         </div>
 
         {/* Kategori Buttons */}
         <div className="flex justify-center font-poppins items-center space-x-6 mt-4">
           {/* Tombol untuk menampilkan semua kategori */}
           <button
-            className={`bg-white  xs:p-2 ss:p-4 rounded-lg text-black font-bold ${
+            className={`bg-white border-2 border-solid shadow-xl xs:p-2 ss:p-4 rounded-lg text-black font-bold ${
               selectedCategory === "Semua" ? "" : "scale-110"
             }`}
             onClick={() => {
@@ -100,7 +100,7 @@ const Template = () => {
           {categories.map((category, index) => (
             <button
               key={index}
-              className={`bg-white xs:p-2 ss:p-4 rounded-lg text-black font-bold ${
+              className={`bg-white shadow-xl border-2 border-double xs:p-2 ss:p-4 rounded-lg text-black font-bold ${
                 selectedCategory === category ? "scale-100" : "scale-110"
               }`}
               onClick={() => {
@@ -121,7 +121,7 @@ const Template = () => {
           <div key={template.id} className="relative p-4">
             <div
               className={`h-full rounded-md shadow-xl ${
-                index % 2 === 0 ? "bg-white" : "bg-[#EAFAEA]"
+                index % 2 === 0 ? "bg-white" : "bg-[#f9fafb]"
               }`}
             >
               <img
@@ -136,12 +136,12 @@ const Template = () => {
                 <div className="flex justify-center space-x-6 mt-4">
                   <a
                     href="https://wa.me/6287789035813?text=Halo%20kak,%20saya%20tertarik%20untuk%20membuat%20website%20di%20agensiweb%20😀"
-                    className="bg-[#6a316b] hover:scale-[0.97] p-2 w-1/2 m-2 text-white rounded-lg flex items-center justify-center text-center shadow-lg"
+                    className="bg-black hover:scale-[0.97] p-2 w-1/2 m-2 text-white rounded-lg flex items-center justify-center text-center shadow-lg"
                   >
                     Pesan
                   </a>
                   <button
-                    className="bg-[#6a316b] hover:scale-[0.97] p-2 w-1/2 m-2 text-white rounded-lg h-12"
+                    className="bg-black hover:scale-[0.97] p-2 w-1/2 m-2 text-white rounded-lg h-12"
                     onClick={() => window.open(template.link, "_blank")}
                   >
                     Pratinjau

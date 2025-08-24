@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 const NotFound = () => {
   return (
     <div>
-      <div className="min-h-screen bg-[#004aad] text-white flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 ">
+      <div className="min-h-screen bg-[#ECEEDF] text-white flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 ">
         <div className="bg-[#0a0422b6] rounded-lg">
           <div className="max-w-md w-full space-y-8 text-center ">
             <div className="mb-8">

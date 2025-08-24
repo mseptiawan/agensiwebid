@@ -44,7 +44,7 @@ const Contact = () => {
 
   return (
     <section
-      className="-mt-10 text-white  font-outfit xs:text-sm md:text-medium"
+      className="-mt-10 text-black  font-outfit xs:text-sm md:text-medium"
       id="contact"
     >
       <div className="mx-auto  max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
@@ -87,7 +87,7 @@ const Contact = () => {
                   </div>
                   <div className="ml-4 md:ml-4">
                     <h3 className=" text-lg font-medium leading-6">Kontak</h3>
-                    <p className="">Handphone: +62 877-8903-5813</p>
+                    <p className="">Handphone: +62 896-3090-9617</p>
                     <p className="">Email: mseptiawan017@gmail.com</p>
                   </div>
                 </li>
@@ -148,7 +148,7 @@ const Contact = () => {
                 <div className="text-center relative">
                   <button
                     type="submit"
-                    className="w-full bg-white text-black px-6 py-3 font-bold rounded-md hover:scale-95 duration-75"
+                    className="w-full bg-black text-white shadow-xl border-2 border-double text-black px-6 py-3 font-bold rounded-md hover:scale-95 duration-75"
                   >
                     Kirim pesan
                     <img

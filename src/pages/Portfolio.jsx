@@ -2,7 +2,7 @@ import { NavigationBar, Footer, WebsitePortofolio } from "../components";
 
 const Portfolio = () => {
   return (
-    <div className="bg-[#004aad] bg-cover ">
+    <div className="bg-[#FFFCFB] bg-cover ">
       <NavigationBar />
       <WebsitePortofolio />
       <Footer />

@@ -2,7 +2,7 @@ import { NavigationBar, Footer, Contact } from "../components";
 
 const ContactUs = () => {
   return (
-    <div className="bg-[#004aad] bg-cover ">
+    <div className="bg-[#FFFCFB] bg-cover  " >
       <NavigationBar />
       <Contact />
       <Footer />
@@ -11,3 +11,4 @@ const ContactUs = () => {
 };
 
 export default ContactUs;
+ 

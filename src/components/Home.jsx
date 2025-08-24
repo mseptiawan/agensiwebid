@@ -27,7 +27,7 @@ const Home = () => {
           <div className="md:flex md:justify-center md:space-x-36 -mt-12">
             <div className=" lg:mt-52 lg:ml-20 lg:scale-[1.5] xs:mt-0 sm:mt-36 ss:ml-0 md:ml-20 sm:scale-[1.2] ">
               <h2 className="xs:text-center md:text-left font-outfit text-lg xs:mt-20 md:mt-0 ">
-                <span className="text-yellow-300 font-bold">Penawaran menarik</span>
+                <span className="text-[#0118D8] font-bold">Penawaran menarik</span>
               </h2>
               <div className="xs:text-center md:text-left ">
                 <h1 className="font-outfit text-2xl font-bold mb-2">

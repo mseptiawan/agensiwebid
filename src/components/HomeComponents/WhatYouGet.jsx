@@ -42,7 +42,7 @@ const WhatYouGet = () => {
             </div>
           </div>
 
-          <div className="relative overflow-hidden rounded-lg border bg-[#EAFAEA] select-none p-2">
+          <div className="relative overflow-hidden rounded-lg border bg-[#f9fafb] select-none p-2">
             <div className="flex flex-col justify-between rounded-md  ss:p-6 xs:p-2 ">
               <img
                 src={seo}
@@ -79,7 +79,7 @@ const WhatYouGet = () => {
             </div>
           </div>
 
-          <div className="relative overflow-hidden rounded-lg border bg-[#EAFAEA]  select-none p-2">
+          <div className="relative overflow-hidden rounded-lg border bg-[#f9fafb]  select-none p-2">
             <div className="flex flex-col justify-between rounded-md ss:p-6 xs:p-2 ">
               <img
                 src={ssl}
@@ -118,7 +118,7 @@ const WhatYouGet = () => {
             </div>
           </div>
 
-          <div className="relative overflow-hidden rounded-lg border bg-[#EAFAEA]  select-none p-2">
+          <div className="relative overflow-hidden rounded-lg border bg-[#f9fafb]  select-none p-2">
             <div className="flex flex-col justify-between rounded-md ss:p-6 xs:p-2">
               <img
                 src={buku}

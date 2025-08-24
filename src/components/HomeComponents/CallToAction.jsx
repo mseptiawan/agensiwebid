@@ -9,7 +9,7 @@ const CallToAction = () => {
             Buat Websitemu Sekarang!
           </h1>
           <h1 className="sm:text-2xl font-bold xs:text-ss  mb-4 ">
-            #Bisnis <span className="text-yellow-300">maju</span> pakai{" "}
+            #Bisnis <span className="text-[#0118D8]">maju</span> pakai{" "}
             <span className="text-red-600">digital</span>
           </h1>
           <p className="px-4 mb-8 leading-relaxed sm:text-xl xs:text-base">

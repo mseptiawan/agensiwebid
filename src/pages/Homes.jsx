@@ -13,12 +13,12 @@ const Homes = () => {
       "https://wa.me/6287789035813?text=Halo%20kak,%20saya%20tertarik%20untuk%20membuat%20website%20di%20agensiweb%20😀";
   };
   return (
-    <div className="bg-[#004aad] bg-cover  ">
+    <div className="bg-[#FFFCFB] bg-cover text-black ">
       <NavigationBar />
       <Home />
       <Footer />
       <div className="fixed bottom-0 right-4 mb-8 ml-8 flex flex-col">
-        <div className="bg-[#0a0422b6] w-16 flex justify-center items-center h-14 rounded-lg ml-32">
+        <div className="bg-[#0a0422b6] w-12 flex justify-center items-center h-12 rounded-lg ml-32">
           <img
             src={arrow}
             alt="Ikon panah untuk menggulir ke atas"
@@ -36,7 +36,7 @@ const Homes = () => {
           </button>
 
           <button onClick={handleChatClick}>
-            <p className="font-bold ml-2 text-xl">Chat Kami</p>
+            <p className="font-bold ml-2 text-xl text-white">Chat Kami</p>
           </button>
         </div>
       </div>

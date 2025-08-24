@@ -125,8 +125,7 @@ const WebsiteType = () => {
               Pilihan Website
             </h2>
             <p className="ss:mb-24 md:mb-32 xs:-mb-32 font-light  text-xl  text-center font-outfit mt-4 sm:w-1/2 xs:w-5/6 mx-auto">
-              Penawaran oke, Fitur mewah dan bonus ebook terbaik, wahh banyak
-              yaa yaa, Pilih sekarang!
+              Penawaran oke, Fitur mewah dan bonus ebook terbaik, Pilih sekarang!
             </p>
           </div>
           <div className="  xs:scale-[.9] sm:scale-100 text-lg  -mt-28">

@@ -7,7 +7,7 @@ const Goal = () => {
           <h2 className=" text-3xl font-bold text-left mt-2  ">Visi Misi</h2>
           <div className=" mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-2  xs:grid-cols-1">
           
-            <div className="bg-white text-black rounded-lg  p-4">
+            <div className="bg-white shadow-lg  text-black rounded-lg  p-4">
               <div className="flex items-center justify-center h-12 w-20 rounded-md  text-white">
                 <img src={visi}  alt="Ikon untuk melihat visi perusahaan" className="" />
               </div>
@@ -19,13 +19,13 @@ const Goal = () => {
                 </p>
               </div>
             </div>
-            <div className="bg-[#EAFAEA] text-black rounded-lg  p-4">
+            <div className="bg-[#f9fafb] shadow-lg text-black rounded-lg  p-4">
               <div className="flex items-center justify-center h-12 w-20 rounded-md  text-white">
                 <img src={misi} alt="Ikon misi untuk menggambarkan tujuan atau misi perusahaan kami" className="" />
               </div>
               <div className="mt-6 ">
                 <h3 className=" text-lg font-bold ">Misi</h3>
-                <p className="mt-2  mb-4 ">Misi AgensiWeb mencakup :</p>
+                <p className="mt-2  mb-4 ">Misi kami mencakup :</p>
 
                 <div className="flex flex-col  space-y-4 ">
                   <div className="flex items-start">

@@ -16,7 +16,7 @@ const Footer = () => {
   };
 
   return (
-    <div className=" xs:bg-bg-foot2  lg:bg-bg-foot3  bg-cover    bg-[#000000] ">
+    <div className=" xs:bg-bg-foot2  lg:bg-bg-foot3  bg-cover   text-white bg-[#000000] ">
       <footer className="w-full font-outfit xs:text-medium md:text-lg ">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-12 gap-8 py-14 lg:grid-cols-8">
@@ -39,7 +39,7 @@ const Footer = () => {
                   <li className="mb-6 ">mseptiawan017@gmail.com</li>
                 </div>
                 <div className="flex">
-                  <li className="mb-6 ">+62 877-8903-5813</li>
+                  <li className="mb-6 ">+62 896-3090-9617</li>
                 </div>
                 <div className="flex text-left">
                   <li className="mb-6  ">
@@ -153,7 +153,7 @@ const Footer = () => {
           <div className="py-7 border-t border-gray-200">
             <div className="flex  justify-center text-center flex-col  lg:flex-row">
               <span className="   ">
-                Copyright © 2025<a href=""> agensiweb</a>, Powered by Agensiweb.
+                Copyright © 2025<a href=""> Agency</a>, Powered by Agency.
               </span>
             </div>
           </div>

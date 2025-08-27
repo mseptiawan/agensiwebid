@@ -1,52 +1,48 @@
-import consultan from "./consultan.ico";
-import question from "./question.webp";
-import check from "./check.webp";
-import backgroundutama from "./backgroundutama.webp";
+import pertanyaan from "./pertanyaan.webp";
+import cek from "./cek.webp";
+import latarBelakangUtama from "./latar-belakang-utama.webp";
 import misi from "./misi.webp";
-import copywriting from "./copywriting.webp";
-import seo from "./seo.webp";
+import copyWriting from "./copy-writing.webp";
 import domain from "./domain.webp";
-import ssl from "./ssl.webp";
+import secureSocketsLayer from "./secure-sockets-layer.webp";
 import buku from "./buku.webp";
 import responsif from "./responsif.webp";
 import visi from "./visi.webp";
-import clickicon from "./clickicon.webp";
+import klikIkon from "./klik-ikon.webp";
 import instagram from "./instagram.webp";
 import whatsapp from "./whatsapp.webp";
-import linkdin from "./linkdin.webp";
-import emailicon from "./email.webp";
-import angle from "./angle-right-solid.webp";
-import arrow from "./arrow.webp";
-import down from "./down.webp";
-import tanya from "./icontanya.webp";
-import capporto from "./capporto.png";
-import capcompany from "./capcompany.png";
-
-import chat from "./chat.png";
-
+import linkedin from "./linkedin.webp";
+import email from "./email.webp";
+import sudut from "./sudut.webp";
+import panah from "./panah.webp";
+import bawah from "./bawah.webp";
+import pesan from "./pesan.webp";
+import tanya from "./ikon-tanya.webp";
+import layananSeo from "./layanan-seo.webp";
+import website from "./website.webp";
+import zoom from "./zoom.webp";
 export {
-  chat,
-  capcompany,
-  capporto,
-  arrow,
+  pesan,
+  layananSeo,
+  zoom,
+  website,
+  panah,
   visi,
-  linkdin,
-  emailicon,
-  clickicon,
+  linkedin,
+  email,
+  klikIkon,
   whatsapp,
-  seo,
-  down,
+  bawah,
   tanya,
-  angle,
-  copywriting,
+  sudut,
+  copyWriting,
   domain,
-  ssl,
+  secureSocketsLayer,
   instagram,
   buku,
   responsif,
-  check,
+  cek,
   misi,
-  question,
-  consultan,
-  backgroundutama,
+  pertanyaan,
+  latarBelakangUtama,
 };

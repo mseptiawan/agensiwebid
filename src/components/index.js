@@ -1,7 +1,7 @@
-import NavigationBar from "./NavFootComponents/NavigationBar";
-import Contact from "./ContactComponents/Contact";
+import Navigasi from "./NavbarFooter/Navigasi";
+import Kontak from "./Kontak/Kontak";
 import Home from "./Home";
-import Footer from "./NavFootComponents/Footer";
-import WebsitePortofolio from "./WebsitePortofolio";
+import Footer from "./NavbarFooter/Footer";
+import PortofolioWebsite from "./PortofolioWebsite";
 
-export { Home, NavigationBar, Contact, WebsitePortofolio, Footer };
+export { Home, Navigasi, Kontak, PortofolioWebsite, Footer };

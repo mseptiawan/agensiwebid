@@ -1,6 +1,6 @@
-import { arrow, chat } from "../assets";
+import { panah, pesan } from "../assets";
 
-import { NavigationBar, Home, Footer } from "../components";
+import { Navigasi, Home, Footer } from "../components";
 const Homes = () => {
   const handleScrollUp = () => {
     window.scrollTo({
@@ -14,13 +14,13 @@ const Homes = () => {
   };
   return (
     <div className="bg-[#FFFCFB] bg-cover text-black ">
-      <NavigationBar />
+      <Navigasi />
       <Home />
       <Footer />
       <div className="fixed bottom-0 right-4 mb-8 ml-8 flex flex-col">
-        <div className="bg-[#0a0422b6] w-12 flex justify-center items-center h-12 rounded-lg ml-32">
+        <div className=" w-12 flex justify-center items-center h-12 rounded-lg ml-32">
           <img
-            src={arrow}
+            src={panah}
             alt="Ikon panah untuk menggulir ke atas"
             className="xs:w-8 sm:w-10  cursor-pointer transform transition-transform duration-300 hover:scale-110 "
             onClick={handleScrollUp}
@@ -29,7 +29,7 @@ const Homes = () => {
         <div className="flex w-48 font-outfit bg-[#10c03e] rounded-lg mt-4 items-center h-14">
           <button onClick={handleChatClick}>
             <img
-              src={chat}
+              src={pesan}
               alt="Ikon untuk membuka obrolan atau chat dengan kami"
               className="xs:w-10 sm:w-12 ml-2"
             />

@@ -2,31 +2,31 @@
   {
     "id": 1,
     "title": "Aplikasi Manajemen Mata Kuliah",
-    "image": "images/portofolio-web/codecrudkampus.webp",
+    "image": "images/portofolio-web/perpustakaan-1.webp",
     "link": "https://mseptiawan.vercel.app"
   },
   {
     "id": 2,
     "title": "Aplikasi Perpustakaan berbasis Website",
-    "image": "images/portofolio-web/codecrudperpus.webp",
+    "image": "images/portofolio-web/perpustakaan-2.webp",
     "link": "#"
   },
   {
     "id": 3,
     "title": "Blog dengan React dan Strapi CMS",
-    "image": "images/portofolio-web/codeblogpertama.webp",
+    "image": "images/portofolio-web/blog-1.webp",
     "link": "#"
   },
   {
     "id": 4,
-    "title": "Website Company Profile",
-    "image": "images/portofolio-web/codecompanyprofile.webp",
+    "title": "Website Profil Perusahaan",
+    "image": "images/portofolio-web/profil-perusahaan-1.webp",
     "link": "#"
   },
     {
     "id": 5,
     "title": "WEBSITE PERHITUNGAN IKT PROMOTOR PADA PT. CHANGHONG ELECTRIC INDONESIA",
-    "image": "images/portofolio-web/insentif.webp",
+    "image": "images/portofolio-web/website-insentif.webp",
     "link": "#"
   }
 ]

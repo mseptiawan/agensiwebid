@@ -2,14 +2,14 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { useState, useEffect } from "react";
-import { check, clickicon, backgroundutama } from "../assets";
-import Testimonials from "./HomeComponents/Testimonials";
-import Goal from "./HomeComponents/Goal";
-import CallToAction from "./HomeComponents/CallToAction";
-import WhatYouGet from "./HomeComponents/WhatYouGet";
-import Questions from "./HomeComponents/Questions";
-import WebsiteType from "./HomeComponents/WebsiteType";
-import Template from "./HomeComponents/Template";
+import { cek, klikIkon, latarBelakangUtama } from "../assets";
+import Testimonials from "./HomeComponents/Testimoni";
+import Goal from "./HomeComponents/Tujuan";
+import CallToAction from "./HomeComponents/Ajakan";
+import WhatYouGet from "./HomeComponents/Dapatkan";
+import Questions from "./HomeComponents/Pertanyaan";
+import WebsiteType from "./HomeComponents/Layanan";
+import Template from "./HomeComponents/Templat";
 
 const Home = () => {
   const [setServices] = useState([]);
@@ -31,70 +31,70 @@ const Home = () => {
               </h2>
               <div className="xs:text-center md:text-left ">
                 <h1 className="font-outfit text-2xl font-bold mb-2">
-                  Ingin punya{" "}
-                  <span className="text-red-600 font-bold">website</span> tapi
-                  tidak
-                  <br /> tahu harus mulai dari mana?
+                  Solusi IT & Konsultasi Karir di Bidang Teknologi{" "}
+                  <span className="text-red-600 font-bold"></span> 
+                  <br /> 
                 </h1>
               </div>
 
               <h2 className="font-outfit xs:text-center text-lg  mb-2 md:text-left">
-                Kami siap membantu Anda
+            Kami hadir untuk membantu bisnis dan pengembangan  <br />
+            karir Anda di dunia IT:
               </h2>
 
               <ul className="xs:block md:hidden flex flex-col items-center md:items-start text-center md:text-left mx-auto w-[300px]  text-sm ">
                 <div className="ml-10">
                   <li className="flex items-center -mb-2 ">
                     <img
-                      src={check}
+                      src={cek}
                       alt="Ikon check untuk menandai tindakan yang sudah selesai"
                       className="w-10 "
                     />
-                    <span>Dapat dibayar perbulan</span>
+                    <span>Pembuatan Website Profesional</span>
                   </li>
                   <li className="flex items-center -mb-2">
                     <img
-                      src={check}
+                      src={cek}
                       alt="Ikon check untuk menandai tindakan yang sudah selesai"
                       className="w-10 "
                     />
-                    <span>Harga paling murah sejagad raya</span>
+                    <span>Jasa SEO Terpercaya</span>
                   </li>
                   <li className="flex items-center -mb-2">
                     <img
-                      src={check}
+                      src={cek}
                       alt="Ikon check untuk menandai tindakan yang sudah selesai"
                       className="w-10 "
                     />
-                    <span>Dukungan jangka panjang</span>
+                    <span>Konsultasi Karir via Zoom</span>
                   </li>
                 </div>
               </ul>
 
-              <ul className="xs:hidden md:block flex flex-col items-center md:items-start text-center md:text-left mx-auto">
+              <ul className="xs:hidden md:block flex flex-col items-center md:items-start text-center md:text-left mx-auto font-outfit">
                 <li className="flex items-center ">
                   <img
-                    src={check}
+                    src={cek}
                     alt="Ikon check untuk menandai tindakan yang sudah selesai"
                     className="w-10 mr-2"
                   />
-                  <span>Dapat dibayar perbulan</span>
+                  <span>Pembuatan Website Profesional.</span>
                 </li>
                 <li className="flex items-center">
                   <img
-                    src={check}
+                    src={cek}
                     alt="Ikon check untuk menandai tindakan yang sudah selesai"
                     className="w-10 mr-2"
                   />
-                  <span>Dapat Ebook tentang bisnis</span>
+                  <span>Jasa SEO Terpercaya.</span>
                 </li>
                 <li className="flex items-center">
                   <img
-                    src={check}
+                    src={cek}
                     alt="Ikon check untuk menandai tindakan yang sudah selesai"
                     className="w-10 mr-2"
                   />
-                  <span>Dukungan jangka panjang</span>
+                  <span>Konsultasi Karir via Zoom. </span>
                 </li>
               </ul>
 
@@ -103,13 +103,13 @@ const Home = () => {
                   <button
                     onClick={() =>
                       (window.location.href =
-                        "https://wa.me/6287789035813?text=Halo%20kak,%20saya%20tertarik%20untuk%20membuat%20website%20di%20agensiweb%20😀")
+                        "https://wa.me/6289630909617?text=Halo...")
                     }
                     className="bg-white shadow-lg text-black font-bold md:px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-300 xs:px-2 hover:scale-95 duration-75"
                   >
-                    BUAT WEBSITE
+                    Mulai sekarang
                     <img
-                      src={clickicon}
+                      src={klikIkon}
                       alt="Ikon klik untuk melakukan tindakan"
                       className="absolute top-4 right-1 w-10"
                     />
@@ -119,7 +119,7 @@ const Home = () => {
             </div>
             <div className="flex justify-end xs:justify-center">
               <img
-                src={backgroundutama}
+                src={latarBelakangUtama}
                 alt="Ikon background utama untuk elemen desain situs atau aplikasi"
                 className="lg:w-[600px] ss:w-[500px] xs:w-[300px] "
               />

@@ -1,10 +1,10 @@
-import { NavigationBar, Footer, WebsitePortofolio } from "../components";
+import { Navigasi, Footer, PortofolioWebsite } from "../components";
 
 const Portfolio = () => {
   return (
     <div className="bg-[#FFFCFB] bg-cover ">
-      <NavigationBar />
-      <WebsitePortofolio />
+      <Navigasi />
+      <PortofolioWebsite />
       <Footer />
     </div>
   );

@@ -1,10 +1,10 @@
-import { NavigationBar, Footer, Contact } from "../components";
+import { Navigasi, Footer, Kontak } from "../components";
 
 const ContactUs = () => {
   return (
     <div className="bg-[#FFFCFB] bg-cover  " >
-      <NavigationBar />
-      <Contact />
+      <Navigasi />
+      <Kontak />
       <Footer />
     </div>
   );

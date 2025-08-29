@@ -6,10 +6,8 @@ import { cek, klikIkon, latarBelakangUtama } from "../assets";
 import Testimoni from "./HomeComponents/Testimoni";
 import Tujuan from "./HomeComponents/Tujuan";
 import Ajakan from "./HomeComponents/Ajakan";
-// import Dapatkan from "./HomeComponents/Dapatkan";
 import Pertanyaan from "./HomeComponents/Pertanyaan";
 import Layanan from "./HomeComponents/Layanan";
-import Templat from "./HomeComponents/Templat";
 
 const Home = () => {
   const [setServices] = useState([]);
@@ -127,9 +125,7 @@ const Home = () => {
         </div>
       </div>
       <Tujuan />
-      {/* <Dapatkan /> */}
       <Layanan />
-      {/* <Templat /> */}
       <Pertanyaan />
       <Testimoni />
       <Ajakan />

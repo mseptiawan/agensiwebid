@@ -5,7 +5,7 @@ const Homes = () => {
   const handleScrollUp = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth", // Animasi smooth scroll
+      behavior: "smooth", 
     });
   };
   const handleChatClick = () => {

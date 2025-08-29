@@ -16,6 +16,7 @@ import email from "./email.webp";
 import sudut from "./sudut.webp";
 import panah from "./panah.webp";
 import bawah from "./bawah.webp";
+import sistemAnalis from "./sistem-analis.webp";
 import pesan from "./pesan.webp";
 import tanya from "./ikon-tanya.webp";
 import layananSeo from "./layanan-seo.webp";
@@ -24,6 +25,7 @@ import zoom from "./zoom.webp";
 export {
   pesan,
   layananSeo,
+  sistemAnalis,
   zoom,
   website,
   panah,

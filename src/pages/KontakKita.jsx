@@ -1,6 +1,6 @@
 import { Navigasi, Footer, Kontak } from "../components";
 
-const ContactUs = () => {
+const KontakKita = () => {
   return (
     <div className="bg-[#FFFCFB] bg-cover  " >
       <Navigasi />
@@ -10,5 +10,5 @@ const ContactUs = () => {
   );
 };
 
-export default ContactUs;
+export default KontakKita;
  

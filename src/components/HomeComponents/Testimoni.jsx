@@ -32,9 +32,9 @@ const Testimoni = () => {
                       <blockquote className="relative ">
                         <p className="sm:text-lg xs:text-xs tracking-tight text-slate-900">
                           {index === 0 &&
-                            "Saya Johan, temannya pemilik dari Kami semasa SMK, pengalaman saya buat website portofolio disini sangat menakjubkan ga sampe seminggu langsung jadi websitenya, sukses selalu untuk kami"}
+                            "saya pelaku usaha yang udah punya website untuk mempromosikan usaha saya dengan organik, namun sulit sekali untuk mencapai banyak pelanggan, saya pikir ada yang kurang performanya dari website saya lalu saya coba bayar jasa seo di pemenang karir, entah apa yang dia lakukan, website saya ada kemajuan  dan mencapai penjualan mencapai titik tertinggi, menang pemenang karir adalah solusi bagi kita yang mau berkarir"}
                           {index === 1 &&
-                            "penyedia jasa pembuatan website terbaik, selain membantu membuat website, kami memberikan bonus buku juga yang sangat berguna bagi klien seperti saya ini yang awam tentang usaha UMKM berkat buku tersebut pikiran saya agak sedikit terbuka"}
+                            "awalnya saya seorang lulusan sma yang mau melanjutkan pendidikan karir dengan kuliah jurusan it, saya dapat pilihan sistem informasi dan teknik informatika, kedua mata kuliah itu arahnya pada it semua, saya ga tau perbedaan itu, singkat cerita saya konsultasi ke pemenang karir , cari tau perbedaan antara kedua jurusan tersebut, perbincangan kami sangat dalam yang ngebahas arah karir, peluang kerja, hingga kecocokan dengan minat saya dan akhirnya saya tau dengan detail apa bedanya, sehingga saya pilih jurusan sistem informasi "}
                           {index === 2 &&
                             "Saya buka usaha loundry. dan suatu ketika usaha saya sepi, disaat itu saya termenung sambil scroll facebook, setelah 5 menit scroll saya menemukan sebuah postingan dari Halaman facebook kami dengan kalimat 'Usaha anda sepi? Makanya pindah ke digital, sedikit tersinggung dan berpikir. akhirnya setelah saya baca postingan tersebut. saya tertarik untuk membuat website company profile untuk usaha saya dan syukur dengan bantuan kami, OMSEtttt saya naik 2x lipattt"}
                         </p>

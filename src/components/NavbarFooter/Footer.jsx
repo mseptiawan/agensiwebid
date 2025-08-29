@@ -12,7 +12,7 @@ const Footer = () => {
 
   const handleNavigation = () => {
     window.scrollTo(0, 0);
-    navigate("/jasa-pembuatan-website");
+    navigate("/pemenang-karir");
   };
 
   return (
@@ -25,9 +25,7 @@ const Footer = () => {
                 <p className=" w-52 text-2xl font-bold">| Pemenang Karir</p>
               </a>
               <p className="mt-6   ">
-                Layanan penyedia jasa pembuatan website landing page, website
-                informasi seperti company profile dan informasi produk anda.
-                dengan menjadi mitra anda ayo kita menuju kesuksesan bersama.
+                Kami hadir untuk memberikan wawasan mendalam tentang IT, membantu kamu menggali kebutuhan sistem pada bisnis, serta mengembangkannya agar lebih efisien dan produktif.
               </p>
             </div>
             <div className="w-full text-center lg:w-auto lg:text-left col-span-full sm:col-span-4 md:col-span-4 lg:col-span-2 ">
@@ -59,7 +57,7 @@ const Footer = () => {
                     <img src={sudut} alt="" className="w-4 h-6 filter invert" />
 
                     <NavLink
-                      to={"/jasa-pembuatan-website"}
+                      to={"/pemenang-karir"}
                       onClick={handleNavigation}
                     >
                       Beranda
@@ -69,7 +67,7 @@ const Footer = () => {
                 <li className="mb-6">
                   <div className="flex space-x-2">
                     <img src={sudut} alt="" className="w-4 h-6 filter invert" />
-                    <a href="/jasa-pembuatan-website#paket">Pilihan website</a>
+                    <a href="/pemenang-karir#paket">Pilihan website</a>
                   </div>
                 </li>
                 <li className="mb-6">
@@ -110,7 +108,7 @@ const Footer = () => {
                 </a>
 
                 <a
-                  href="https://wa.me/6287789035813?text=Halo%20kak,%20saya%20tertarik%20untuk%20membuat%20website%20di%20agensiweb%20😁"
+                  href="https://wa.me/6287789035813?text=Halo.."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex justify-center items-center w-16 h-16 bg-white rounded-lg scale-75 hover:scale-100 duration-75"
@@ -123,7 +121,7 @@ const Footer = () => {
                 </a>
 
                 <a
-                  href="mailto:mseptiawan017@gmail.com?subject=Tertarik%20untuk%20membuat%20website&body=Halo,%20saya%20tertarik%20untuk%20membuat%20website%20di%20agensiweb%20😁"
+                  href="mailto:mseptiawan017@gmail.com?subject=Halo.."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex justify-center items-center w-16 h-16 bg-white rounded-lg scale-75 hover:scale-100 duration-75"

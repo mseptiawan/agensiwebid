@@ -8,7 +8,7 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
-import { Homes, Portfolio, ContactUs, NotFound } from "./pages";
+import { Homes, Portofolio, KontakKita, TidakDitemukan } from "./pages";
 import "./App.css";
 import "./index.css";
 function App() {
@@ -16,11 +16,11 @@ function App() {
     <Router>
       <Toaster position="top-right" reverseOrder={false} />
       <Routes>
-        <Route path="/" element={<Navigate to="/jasa-pembuatan-website" />} />
-        <Route path="/jasa-pembuatan-website" element={<Homes />} />
-        <Route path="/portofolio-web" element={<Portfolio />} />
-        <Route path="/hubungi-kami" element={<ContactUs />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="/" element={<Navigate to="/pemenang-karir" />} />
+        <Route path="/pemenang-karir" element={<Homes />} />
+        <Route path="/portofolio-web" element={<Portofolio />} />
+        <Route path="/hubungi-kami" element={<KontakKita />} />
+        <Route path="*" element={<TidakDitemukan />} />
       </Routes>
     </Router>
   );

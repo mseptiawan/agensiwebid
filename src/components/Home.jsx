@@ -3,13 +3,13 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { useState, useEffect } from "react";
 import { cek, klikIkon, latarBelakangUtama } from "../assets";
-import Testimonials from "./HomeComponents/Testimoni";
-import Goal from "./HomeComponents/Tujuan";
-import CallToAction from "./HomeComponents/Ajakan";
-import WhatYouGet from "./HomeComponents/Dapatkan";
-import Questions from "./HomeComponents/Pertanyaan";
-import WebsiteType from "./HomeComponents/Layanan";
-import Template from "./HomeComponents/Templat";
+import Testimoni from "./HomeComponents/Testimoni";
+import Tujuan from "./HomeComponents/Tujuan";
+import Ajakan from "./HomeComponents/Ajakan";
+// import Dapatkan from "./HomeComponents/Dapatkan";
+import Pertanyaan from "./HomeComponents/Pertanyaan";
+import Layanan from "./HomeComponents/Layanan";
+import Templat from "./HomeComponents/Templat";
 
 const Home = () => {
   const [setServices] = useState([]);
@@ -27,18 +27,17 @@ const Home = () => {
           <div className="md:flex md:justify-center md:space-x-36 -mt-12">
             <div className=" lg:mt-52 lg:ml-20 lg:scale-[1.5] xs:mt-0 sm:mt-36 ss:ml-0 md:ml-20 sm:scale-[1.2] ">
               <h2 className="xs:text-center md:text-left font-outfit text-lg xs:mt-20 md:mt-0 ">
-                <span className="text-[#0118D8] font-bold">Penawaran menarik</span>
+                <span className="text-[#000000] font-bold">Penawaran menarik</span>
               </h2>
               <div className="xs:text-center md:text-left ">
                 <h1 className="font-outfit text-2xl font-bold mb-2">
-                  Solusi IT & Konsultasi Karir di Bidang Teknologi{" "}
-                  <span className="text-red-600 font-bold"></span> 
+                  Solusi IT & Konsultasi Karir di <br /> Bidang Teknologi
                   <br /> 
                 </h1>
               </div>
 
               <h2 className="font-outfit xs:text-center text-lg  mb-2 md:text-left">
-            Kami hadir untuk membantu bisnis dan pengembangan  <br />
+            Kami hadir untuk membantu bisnis dan <br /> pengembangan  
             karir Anda di dunia IT:
               </h2>
 
@@ -127,13 +126,13 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Goal />
-      <WebsiteType />
-      <WhatYouGet />
-      <Template />
-      <Questions />
-      <Testimonials />
-      <CallToAction />
+      <Tujuan />
+      {/* <Dapatkan /> */}
+      <Layanan />
+      {/* <Templat /> */}
+      <Pertanyaan />
+      <Testimoni />
+      <Ajakan />
     </div>
   );
 };

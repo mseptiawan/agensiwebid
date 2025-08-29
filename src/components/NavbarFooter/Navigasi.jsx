@@ -13,7 +13,7 @@ const Navigasi = () => {
       <div className="w-11/12 xxl:w-[1850px]  mx-auto mt-2">
         <div className="flex items-center justify-between -mt-14 ">
           <div className="flex items-center">
-            <Link to="/jasa-pembuatan-website" className="text-2xl font-bold">
+            <Link to="/pemenang-karir" className="text-2xl font-bold">
               <p className=" lg:w-60 w-52 xs:w-40 text-black mt-16">Pemenang Karir</p>
             </Link>
           </div>
@@ -21,7 +21,7 @@ const Navigasi = () => {
             <div className="ml-10 font-outfit relative ">
               <div className="flex">
                 <NavLink
-                  to="/jasa-pembuatan-website"
+                  to="/pemenang-karir"
                   className={({ isActive }) =>
                     isActive
                       ? "px-3 text-black  py-2 rounded-md text-sm font-semibold border-2 border-blue-500 text-bold"
@@ -90,10 +90,10 @@ const Navigasi = () => {
       </div>
 
       {isOpen && (
-        <div className="md:hidden">
-          <div className="px-2 ml-5 font-inter pt-2 pb-3 space-y-1 sm:px-3 bg-[#f9fafb] border  mx-4  rounded-lg border-[#0a0422b6] ">
+        <div className="md:hidden pt-4">
+          <div className="px-2 ml-5 font-poppins pt-2 pb-3 space-y-1 sm:px-3 bg-[#f9fafb] border  mx-4  rounded-lg border-[#0a0422b6] ">
             <NavLink
-              to="/jasa-pembuatan-website"
+              to="/pemenang-karir"
               className={({ isActive }) =>
                 isActive
                   ? "block px-3 py-2 rounded-md text-base font-medium bg-black text-white "

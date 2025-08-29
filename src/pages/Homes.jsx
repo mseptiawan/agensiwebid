@@ -10,7 +10,7 @@ const Homes = () => {
   };
   const handleChatClick = () => {
     window.location.href =
-      "https://wa.me/6287789035813?text=Halo%20kak,%20saya%20tertarik%20untuk%20membuat%20website%20di%20agensiweb%20😀";
+      "https://wa.me/6287789035813?text=Halo..";
   };
   return (
     <div className="bg-[#FFFCFB] bg-cover text-black ">

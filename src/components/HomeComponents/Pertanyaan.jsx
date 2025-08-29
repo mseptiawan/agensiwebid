@@ -3,64 +3,60 @@ import { pertanyaan } from "../../assets";
 const Pertanyaan = () => {
   const [openIndex, setOpenIndex] = useState(null);
   const [openIndex2, setOpenIndex2] = useState(null);
-  const questionsAndAnswers2 = [
-    {
-      question:
-        "Apa keunggulan AgensiWeb dibandingkan penyedia layanan lain?",
-      answer:
-        "Kami menawarkan fitur yang solid serta kami membagikan ebook gratis",
-    },
-    {
-      question: "Apakah bisa request desain website?",
-      answer:
-        "Bisa, anda kirimkan saja referensi atau gambar website yang anda inginkan. dengan sekejap mata akan kami selesaikan",
-    },
-    {
-      question: "Apakah bisa mengedit atau memelihara konten website sendiri?",
-      answer:
-        "Bisa, kami dapat membagikan  video di youtube tentang cara mengedit website  seperti memperbarui kalimat, gambar dan lainnya, namun jika  tidak mau pusing kami bisa membantu memperbarui website anda tetapi akan dikenakan biaya lebih lanjut.",
-    },
-    {
-      question: "Bagaimana jika saya telah punya domain dan hosting sendiri?",
-      answer:
-        "Pembuatan website tetap bisa kami lakukan, nanti setelah website selesai maka akan kami kirim file website tersebut dan anda dapat mengupload nya pada penyedia hosting anda, terkait biaya dapat disesuaikans",
-    },
-    {
-      question: "Apa itu dashboard wordpress?",
-      answer:
-        "Dashboard wordpress digunakan untuk memanajemen website , dengan itu anda dapat mengedit dan banyak lain hal yang dapat anda gunakan. nanti anda mendapatkan akun yang dapat digunakan untuk masuk kedalam dashboard wordpress.",
-    },
-  ];
+  // const questionsAndAnswers2 = [
+   
+  //   {
+  //     question: "Apakah bisa request desain website?",
+  //     answer:
+  //       "Bisa, anda kirimkan saja referensi atau gambar website yang anda inginkan. dengan sekejap mata akan kami selesaikan",
+  //   },
+  //   {
+  //     question: "Apakah bisa mengedit atau memelihara konten website sendiri?",
+  //     answer:
+  //       "Bisa, kami dapat membagikan  video di youtube tentang cara mengedit website  seperti memperbarui kalimat, gambar dan lainnya, namun jika  tidak mau pusing kami bisa membantu memperbarui website anda tetapi akan dikenakan biaya lebih lanjut.",
+  //   },
+  //   {
+  //     question: "Bagaimana jika saya telah punya domain dan hosting sendiri?",
+  //     answer:
+  //       "Pembuatan website tetap bisa kami lakukan, nanti setelah website selesai maka akan kami kirim file website tersebut dan anda dapat mengupload nya pada penyedia hosting anda, terkait biaya dapat disesuaikans",
+  //   },
+  //   {
+  //     question: "Apa itu dashboard wordpress?",
+  //     answer:
+  //       "Dashboard wordpress digunakan untuk memanajemen website , dengan itu anda dapat mengedit dan banyak lain hal yang dapat anda gunakan. nanti anda mendapatkan akun yang dapat digunakan untuk masuk kedalam dashboard wordpress.",
+  //   },
+  // ];
   const questionsAndAnswers = [
-    {
-      question: "Bagaimana proses pembayaran?",
+     {
+      question:
+        "Website apa saja yang bisa dibuat di sini??",
       answer:
-        "Sebelum kami membuat website anda, anda diminta untuk membayar uang muka terlebih dahulu sebesar 50%. setelah website selesai maka klien diminta untuk membayar pelunasan",
+        "Kami dapat membuat berbagai jenis website, seperti: Company Profile Landing Page (satu halaman untuk promosi/penawaran) Aplikasi berbasis website (contoh: perpustakaan online, absensi online, dan lainnya) Blog Website dikembangkan menggunakan PHP dengan framework Laravel, sehingga lebih aman, modern, dan mudah dikembangkan.",
     },
     {
-      question: "Apa saja aset yang diperlukan saat membuat website?",
+      question: "Apakah konsultasi melalui Zoom bisa lebih dari 1 jam?",
       answer:
-        "Diperlukan gambar yang akan kita dimasukkan ke website, deskripsi, dan konten lainnya.",
+        "Ya, bisa. Namun, apabila durasi melebihi 1 jam akan dikenakan biaya tambahan.",
     },
     {
-      question: "Kegunaan website portofolio apa?",
+      question: "Apakah analisis kebutuhan hanya untuk wilayah Palembang?",
       answer:
-        "Website portofolio adalah cara profesional menampilkan karya, keahlian, dan pengalaman Anda secara online. Cocok untuk menarik klien, membangun reputasi, dan memperluas peluang karir.",
+        "Tidak. Analisis kebutuhan dapat dilakukan untuk klien di luar Kota Palembang juga..",
     },
     {
-      question: "Apa beda website landing page dan website company profile?",
+      question: "File apa saja yang diperlukan untuk membuat website?",
       answer:
-        "Landing page fokus pada satu tujuan spesifik, seperti promosi atau konversi. Company profile menampilkan informasi lengkap tentang perusahaan, seperti visi, misi, layanan, dan sejarah",
+        "Umumnya diperlukan file seperti logo, profil perusahaan, konten tulisan, gambar pendukung, atau materi lain sesuai jenis website yang akan dibuat..",
     },
     {
-      question: "Tarif Perpanjangan diperlukan untuk apa?",
+      question: "Bagaimana dengan layanan hosting?",
       answer:
-        "Perpanjangan diperlukan untuk memastikan website tetap aktif, dapat diakses, dan jasa atas maintenance, termasuk memperpanjang domain, hosting agar operasional website berjalan lancar tanpa gangguan.",
+        "Anda dapat memilih: Membeli layanan hosting secara mandiri, atau Menggunakan layanan “terima beres” di mana kami yang menguruskan hosting untuk Anda.",
     },
     {
-      question: "Bagaimana jika terjadi error pada website saya nanti?",
+      question: "Bagaimana jika ingin menambahkan fitur baru di website?",
       answer:
-        "Klien dapat menghubungi kami dan kami akan dengan segera memperbaiki error tersebut.",
+        "Kami dapat membantu menambahkan fitur tambahan sesuai kebutuhan Anda, dengan ketentuan adanya biaya tambahan.",
     },
   ];
 
@@ -146,7 +142,7 @@ const Pertanyaan = () => {
             ))}
           </ul>
         </div>
-        <ul className="xs:w-5/6 md:w-[1000px] mx-auto -mt-10">
+        {/* <ul className="xs:w-5/6 md:w-[1000px] mx-auto -mt-10">
           {questionsAndAnswers2.map((item, index) => (
             <li key={index} className="group">
               <button
@@ -192,7 +188,7 @@ const Pertanyaan = () => {
               </div>
             </li>
           ))}
-        </ul>
+        </ul> */}
       </div>
     </div>
   );

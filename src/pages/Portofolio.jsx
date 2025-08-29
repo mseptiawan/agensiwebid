@@ -1,6 +1,6 @@
 import { Navigasi, Footer, PortofolioWebsite } from "../components";
 
-const Portfolio = () => {
+const Portofolio = () => {
   return (
     <div className="bg-[#FFFCFB] bg-cover ">
       <Navigasi />
@@ -10,4 +10,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Portofolio;

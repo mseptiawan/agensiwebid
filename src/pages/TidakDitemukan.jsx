@@ -1,10 +1,13 @@
-import { NavLink } from "react-router-dom";
 
-const NotFound = () => {
+import { NavLink } from "react-router-dom";
+import { Navigasi, Footer, PortofolioWebsite } from "../components";
+
+const TidakDitemukan = () => {
   return (
     <div>
-      <div className="min-h-screen bg-[#ECEEDF] text-white flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 ">
-        <div className="bg-[#0a0422b6] rounded-lg">
+      <Navigasi />
+      <div className="min-h-screen  text-black font-poppins flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 ">
+        <div className=" rounded-lg">
           <div className="max-w-md w-full space-y-8 text-center ">
             <div className="mb-8">
               <h2 className="mt-6 text-6xl font-extrabold  ">404</h2>
@@ -13,7 +16,7 @@ const NotFound = () => {
             </div>
             <div className="mt-2">
               <NavLink
-                to="/jasa-pembuatan-website"
+                to="/pemenang-karir"
                 className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-[#005DFF]  focus:outline-none focus:ring-2 focus:ring-offset-2"
               >
                 Kembali ke beranda
@@ -41,4 +44,4 @@ const NotFound = () => {
   );
 };
 
-export default NotFound;
+export default TidakDitemukan;
